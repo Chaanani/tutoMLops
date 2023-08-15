@@ -1,5 +1,6 @@
 build-job:
   stage: build
+  runs-on: self-hosted
   script:
     - echo "Hello, $GITLAB_USER_LOGIN!"
 
