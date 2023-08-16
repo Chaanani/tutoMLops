@@ -1,10 +1,11 @@
-"""
+
 def calcule(a,b):
     return a+b
+
+
 """
-
-
 from app import calcule
+"""
 
 def test_calcul():
     assert int(calcule( 2,3)) == 5 
