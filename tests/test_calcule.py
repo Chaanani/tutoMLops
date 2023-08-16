@@ -3,9 +3,8 @@ def calcule(a,b):
     return a+b
 """
 
-import sys
-sys.path.append("D:\\a\\tutoMLops\\tutoMLops\\src")
-from src.app import calcule
+
+from app import calcule
 
 def test_calcul():
     assert int(calcule( 2,3)) == 5 
