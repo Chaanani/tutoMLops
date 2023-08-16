@@ -4,7 +4,7 @@ def calcule(a,b):
 """
 
 import sys
-sys.path.append(r"D:\a\tutoMLops\tutoMLops\src")
+sys.path.append("D:\\a\\tutoMLops\\tutoMLops\\src")
 from src.app import calcule
 
 def test_calcul():
